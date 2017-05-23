@@ -8,7 +8,8 @@ public class manager : MonoBehaviour {
 	public static int x;
 	public static int z;
 	public float time;
-	public GameObject sphere;
+	public GameObject sphereA;
+	public GameObject sphereB;
 	// Use this for initialization
 	void Start () {
 		x = 5;
@@ -20,12 +21,19 @@ public class manager : MonoBehaviour {
 	void Update () {
 		time += Time.deltaTime;
 		if (time >= 6) {
-			x = (int)Random.Range (-2, 2) * 5;
-			z = (int)Random.Range (-2, 2) * 5;
+			
 			time = 0;
 		}
-		if (time >= 3) {
-			Instantiate (sphere, new Vector3 (10, 3, z), Quaternion.identity);
+
+		if ((int)time == 2) {
+			x = (int)Random.Range (-2, 2) * 5;
+			z = (int)Random.Range (-2, 2) * 5;
+		}
+		if (time == 0) {
+			Instantiate (sphereA, new Vector3 (10, 3, z), Quaternion.identity);
+			Instantiate (sphereB, new Vector3 (x, 3,10), Quaternion.identity);
+
+
 		}
 
 		xx = x;

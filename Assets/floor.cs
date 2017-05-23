@@ -9,21 +9,23 @@ public class floor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		time += Time.deltaTime;
 		if (time > 6) {
+			
 			time = 0;
 		}
-		if (time == 0) {
-			this.GetComponent<Renderer> ().material = def;
-		}
-		if (time >= 3) {
+		if ((int)time == 3) {
 			if (transform.position.x == manager.x || transform.position.z == manager.z) {
 				this.GetComponent<Renderer> ().material = red;
 			}
+		}
+		if (time == 0) {
+			this.GetComponent<Renderer> ().material = def;
 		}
 	}
 }
