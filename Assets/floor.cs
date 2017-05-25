@@ -20,7 +20,7 @@ public class floor : MonoBehaviour {
 			time = 0;
 		}
 		if ((int)time == 3) {
-			if (transform.position.x == manager.x || transform.position.z == manager.z) {
+			if (transform.position.x == manager.x || transform.position.z == manager.z||transform.position.x == manager.x2 || transform.position.z == manager.z2) {
 				this.GetComponent<Renderer> ().material = red;
 			}
 		}
