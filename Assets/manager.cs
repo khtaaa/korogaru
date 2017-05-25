@@ -37,10 +37,10 @@ public class manager : MonoBehaviour {
 		}
 
 		if ((int)time == 2) {
-			x = (int)Random.Range (-2, 2) * 5;
-			z = (int)Random.Range (-2, 2) * 5;
-			x2 = (int)Random.Range (-2, 2) * 5;
-			z2 = (int)Random.Range (-2, 2) * 5;
+			x = (int)Random.Range (-2, 3) * 5;
+			z = (int)Random.Range (-2, 3) * 5;
+			x2 = (int)Random.Range (-2, 3) * 5;
+			z2 = (int)Random.Range (-2, 3) * 5;
 
 
 		}
@@ -65,20 +65,20 @@ public class manager : MonoBehaviour {
 			hoge = -1;
 		}
 		if (pos == 1) {
-			px = 10 * hoge;
+			px = 15 * hoge;
 			pz = z;
 		}
 		if (pos == 2) {
 			px = x;
-			pz = 10 * hoge;
+			pz = 15 * hoge;
 		}
 		if (pos == 3) {
-			px = 10 * hoge;
+			px = 15 * hoge;
 			pz = z2;
 		}
 		if (pos == 4) {
 			px = x2;
-			pz = 10 * hoge;
+			pz = 15 * hoge;
 		}
 		GameObject INSball = Instantiate (ball, new Vector3 (px, 3, pz),
 				                    Quaternion.identity) as GameObject;
