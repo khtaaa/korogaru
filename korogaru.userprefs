@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\cube.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\manager.cs">
     <Files>
-      <File FileName="Assets\script\floor.cs" Line="37" Column="167" />
-      <File FileName="Assets\script\manager.cs" Line="104" Column="4" />
-      <File FileName="Assets\cube.cs" Line="9" Column="25" />
-      <File FileName="Assets\script\sphere.cs" Line="11" Column="28" />
+      <File FileName="Assets\script\floor.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\manager.cs" Line="67" Column="18" />
+      <File FileName="Assets\cube.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\sphere.cs" Line="1" Column="1" />
+      <File FileName="Assets\wavetext.cs" Line="15" Column="36" />
+      <File FileName="Assets\script\titletext.cs" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

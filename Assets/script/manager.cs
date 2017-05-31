@@ -5,7 +5,7 @@ using UnityEngine;
 public class manager : MonoBehaviour {
 	public static int wave=0;
 	public GameObject cube;
-	public int nowwave;
+	public static int nowwave=0;
 	public int lockwave;
 	public int xx=5;
 	public int zz=-10;
@@ -52,36 +52,37 @@ public class manager : MonoBehaviour {
 		lockwave = wave;
 		time += Time.deltaTime;
 		if (time >= 6) {
-			nowwave++;
+			
 			ok = true;
 			time = 0;
 		}
 		if ((int)time == 3 && ok==true) {
 			SE.GetComponent<SE> ().koukaon (1);
+			nowwave++;
 			ok = false;
 		}
 		if ((int)time == 2) {
 			x = (int)Random.Range (-2, 3) * 5;
 			z = (int)Random.Range (-2, 3) * 5;
-			if (nowwave > 5) {
+			if (nowwave >= 5) {
 				x2 = (int)Random.Range (-2, 3) * 5;
 				z2 = (int)Random.Range (-2, 3) * 5;
 			}
-			if (nowwave > 10) {
+			if (nowwave >=10) {
 				delx = (int)Random.Range (-2, 3) * 5;
 				delz = (int)Random.Range (-2, 3) * 5;
 			}
-			if (nowwave > 15) {
+			if (nowwave >= 15) {
 				delx2 = (int)Random.Range (-2, 3) * 5;
 				delz2 = (int)Random.Range (-2, 3) * 5;
 			}
 
-			if (nowwave > 20) {
+			if (nowwave >= 20) {
 				cubex = (int)Random.Range (-2, 3) * 5;
 				cubez = (int)Random.Range (-2, 3) * 5;
 			}
 
-			if (nowwave > 25) {
+			if (nowwave >=25) {
 				cubex2 = (int)Random.Range (-2, 3) * 5;
 				cubez2 = (int)Random.Range (-2, 3) * 5;
 			}
@@ -89,16 +90,16 @@ public class manager : MonoBehaviour {
 		if (time == 0) {
 			inst (1);
 			inst (2);
-			if (nowwave > 6) {
+			if (nowwave > 5) {
 				inst (3);
 				inst (4);
 			}
 
-			if (nowwave > 21) {
+			if (nowwave > 20) {
 				Instantiate (cube, new Vector3 (cubex, 10, cubez), Quaternion.identity);
 			}
 
-			if (nowwave > 26) {
+			if (nowwave > 25) {
 				Instantiate (cube, new Vector3 (cubex2, 10, cubez2), Quaternion.identity);
 			}
 		}
