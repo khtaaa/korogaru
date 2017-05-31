@@ -1,16 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\cube.cs">
     <Files>
-      <File FileName="Assets\Generation.cs" Line="1" Column="1" />
-      <File FileName="Assets\floor.cs" Line="1" Column="1" />
-      <File FileName="Assets\manager.cs" Line="43" Column="30" />
-      <File FileName="Assets\sphere.cs" Line="1" Column="1" />
-      <File FileName="Assets\player.cs" Line="1" Column="1" />
-      <File FileName="Assets\gameover.cs" Line="1" Column="1" />
-      <File FileName="Assets\titletext.cs" Line="1" Column="1" />
-      <File FileName="Assets\button.cs" Line="1" Column="1" />
-      <File FileName="Assets\test.cs" Line="16" Column="48" />
+      <File FileName="Assets\script\floor.cs" Line="37" Column="167" />
+      <File FileName="Assets\script\manager.cs" Line="104" Column="4" />
+      <File FileName="Assets\cube.cs" Line="9" Column="25" />
+      <File FileName="Assets\script\sphere.cs" Line="11" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

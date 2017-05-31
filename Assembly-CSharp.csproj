@@ -46,15 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Generation.cs" />
-     <Compile Include="Assets\button.cs" />
-     <Compile Include="Assets\floor.cs" />
-     <Compile Include="Assets\gameover.cs" />
-     <Compile Include="Assets\manager.cs" />
-     <Compile Include="Assets\player.cs" />
-     <Compile Include="Assets\sphere.cs" />
-     <Compile Include="Assets\test.cs" />
-     <Compile Include="Assets\titletext.cs" />
+     <Compile Include="Assets\cube.cs" />
+     <Compile Include="Assets\script\Generation.cs" />
+     <Compile Include="Assets\script\SE.cs" />
+     <Compile Include="Assets\script\button.cs" />
+     <Compile Include="Assets\script\floor.cs" />
+     <Compile Include="Assets\script\gameover.cs" />
+     <Compile Include="Assets\script\manager.cs" />
+     <Compile Include="Assets\script\player.cs" />
+     <Compile Include="Assets\script\sphere.cs" />
+     <Compile Include="Assets\script\test.cs" />
+     <Compile Include="Assets\script\titletext.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity552/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
