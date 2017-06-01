@@ -17,7 +17,7 @@ Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogar
 Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.048 seconds
+- Completed reload, in  0.020 seconds
 Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
@@ -28,39 +28,55 @@ The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
  
 (Filename:  Line: 1754)
 
-UnloadTime: 2.958010 ms
+UnloadTime: 3.604616 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 604 -> priority: 1 
-  Thread -> id: 187c -> priority: 1 
+  Thread -> id: 2178 -> priority: 1 
+  Thread -> id: 211c -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.090136 ms
+UnloadTime: 3.932718 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 477.
-Total: 0.882445 ms (FindLiveObjects: 0.033951 ms CreateObjectMapping: 0.024337 ms MarkObjects: 0.163148 ms  DeleteObjects: 0.661007 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 494.
+Total: 0.723206 ms (FindLiveObjects: 0.026740 ms CreateObjectMapping: 0.012018 ms MarkObjects: 0.146023 ms  DeleteObjects: 0.538123 ms)
 
 The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
  
 (Filename:  Line: 1754)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.382107 ms
+UnloadTime: 0.540226 ms
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 283.
-Total: 5.622773 ms (FindLiveObjects: 0.041463 ms CreateObjectMapping: 0.043566 ms MarkObjects: 0.370164 ms  DeleteObjects: 5.165776 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 2.235421 ms (FindLiveObjects: 0.016525 ms CreateObjectMapping: 0.010816 ms MarkObjects: 0.163450 ms  DeleteObjects: 2.043727 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.409223 ms
+UnloadTime: 0.517091 ms
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 478.
-Total: 0.601817 ms (FindLiveObjects: 0.022834 ms CreateObjectMapping: 0.012018 ms MarkObjects: 0.131901 ms  DeleteObjects: 0.434762 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 495.
+Total: 1.191022 ms (FindLiveObjects: 0.032750 ms CreateObjectMapping: 0.028543 ms MarkObjects: 0.223542 ms  DeleteObjects: 0.905285 ms)
 
 The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
  
 (Filename:  Line: 1754)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.490648 ms
+UnloadTime: 0.759862 ms
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 283.
-Total: 2.102605 ms (FindLiveObjects: 0.043866 ms CreateObjectMapping: 0.024938 ms MarkObjects: 0.187485 ms  DeleteObjects: 1.845714 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 6.372151 ms (FindLiveObjects: 0.049575 ms CreateObjectMapping: 0.050477 ms MarkObjects: 0.460304 ms  DeleteObjects: 5.810592 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.377978 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 495.
+Total: 0.630665 ms (FindLiveObjects: 0.024637 ms CreateObjectMapping: 0.013220 ms MarkObjects: 0.140915 ms  DeleteObjects: 0.451290 ms)
+
+The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.430258 ms
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 1.742066 ms (FindLiveObjects: 0.021332 ms CreateObjectMapping: 0.012318 ms MarkObjects: 0.165853 ms  DeleteObjects: 1.542260 ms)
 

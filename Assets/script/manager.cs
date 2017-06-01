@@ -28,6 +28,10 @@ public class manager : MonoBehaviour {
 	public int hoge;
 	public GameObject SE;
 	public bool ok;
+	public GameObject fly;
+	public GameObject work;
+	public int RX;
+	public int RZ;
 	// Use this for initialization
 	void Start () {
 		nowwave=0;
@@ -48,6 +52,16 @@ public class manager : MonoBehaviour {
 	void Update () {
 		if (nowwave > wave) {
 			wave = nowwave;
+			if (Random.value > 0.5) {
+				RX = (int)Random.Range (-2, 3) * 5;
+				RZ = (int)Random.Range (-2, 3) * 5;
+				if (Random.value > 0.5) {
+					Instantiate (fly, new Vector3 (RX, 10, RZ), Quaternion.identity);
+				} else {
+					Instantiate (work, new Vector3 (RX, 10, RZ), Quaternion.identity);
+
+				}
+			}
 		}
 		lockwave = wave;
 		time += Time.deltaTime;
