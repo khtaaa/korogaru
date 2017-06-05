@@ -6,7 +6,7 @@ public class cube : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 3f);
+		Destroy (gameObject, 3f);//生成されてから3秒後に削除
 	}
 	
 	// Update is called once per frame
@@ -14,6 +14,7 @@ public class cube : MonoBehaviour {
 		
 	}
 	void OnCollisionEnter(Collision col) {
+		//プレイヤーにあたったらタイトルシーンに移動
 		if (col.gameObject.CompareTag ("Player")) {
 			Application.LoadLevel ("title");
 

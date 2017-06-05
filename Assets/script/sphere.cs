@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class sphere : MonoBehaviour {
-	public int pos;
-	public float speed;
-	public int hoge;
+	public int pos;//どのボールか判定
+	public float speed;//移動速度
+	public int hoge;//移動方向
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 5f);
-		speed = Random.Range (0.3f, 0.6f);
+		Destroy (gameObject, 3f);//生成3秒後に削除
+		speed = Random.Range (0.3f, 0.6f);//スピードをランダム獲得
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		//ボールごとに方向と移動を計算し加速
 		if (pos == 1) {
 			transform.Translate (speed*hoge, 0f, 0f);
 		}
@@ -29,6 +30,7 @@ public class sphere : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col) {
+		//プレイヤーにあたったらタイトルシーンに移動
 		if (col.gameObject.CompareTag ("Player")) {
 			Application.LoadLevel ("title");
 
