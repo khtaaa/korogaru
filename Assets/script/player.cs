@@ -42,10 +42,10 @@ public class player : MonoBehaviour {
 			floor = true;
 		
 		if (col.gameObject.CompareTag ("fly"))
-			fly+=0.5f;
+			fly+=0.2f;
 		
 		if (col.gameObject.CompareTag ("work"))
-			work += 0.01f;
+			work += 0.005f;
 			
 	}
 

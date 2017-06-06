@@ -46,17 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\cube.cs" />
-     <Compile Include="Assets\del.cs" />
-     <Compile Include="Assets\script\Generation.cs" />
      <Compile Include="Assets\script\SE.cs" />
      <Compile Include="Assets\script\button.cs" />
+     <Compile Include="Assets\script\cube.cs" />
+     <Compile Include="Assets\script\del.cs" />
      <Compile Include="Assets\script\floor.cs" />
      <Compile Include="Assets\script\gameover.cs" />
      <Compile Include="Assets\script\manager.cs" />
      <Compile Include="Assets\script\player.cs" />
      <Compile Include="Assets\script\sphere.cs" />
-     <Compile Include="Assets\script\test.cs" />
      <Compile Include="Assets\script\titletext.cs" />
      <Compile Include="Assets\script\wavetext.cs" />
  <Reference Include="UnityEngine.UI">

@@ -15,6 +15,7 @@ public class gameover : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col) {
+		//playerが触れたらタイトルに戻る
 		if (col.gameObject.CompareTag ("Player")) {
 			Application.LoadLevel ("title");
 

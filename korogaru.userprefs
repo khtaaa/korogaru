@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\manager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\player.cs">
     <Files>
-      <File FileName="Assets\script\floor.cs" Line="52" Column="22" />
-      <File FileName="Assets\script\manager.cs" Line="172" Column="52" />
-      <File FileName="Assets\cube.cs" Line="17" Column="26" />
-      <File FileName="Assets\script\sphere.cs" Line="33" Column="26" />
-      <File FileName="Assets\script\titletext.cs" Line="10" Column="4" />
-      <File FileName="Assets\script\player.cs" Line="40" Column="40" />
+      <File FileName="Assets\script\floor.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\manager.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\sphere.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\titletext.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\player.cs" Line="45" Column="12" />
+      <File FileName="Assets\script\gameover.cs" Line="18" Column="23" />
+      <File FileName="Assets\script\SE.cs" Line="20" Column="39" />
+      <File FileName="Assets\script\wavetext.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

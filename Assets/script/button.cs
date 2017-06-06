@@ -16,7 +16,7 @@ public class button : MonoBehaviour {
 
 	public void state()
 	{
-		Application.LoadLevel("game");
+		Application.LoadLevel("game");//ゲームシーンに移動
 	}
 
 }
