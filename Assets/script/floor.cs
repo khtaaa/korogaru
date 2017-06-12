@@ -29,19 +29,22 @@ public class floor : MonoBehaviour {
 			transform.position = pos;//初期座標に移動
 
 			//ボールが通るなら赤色に変更
-			if (transform.position.x == manager.x || transform.position.z == manager.z||transform.position.x == manager.x2 || transform.position.z == manager.z2) {
+			if (transform.position.x == manager.ballx || transform.position.z == manager.ballz
+				||transform.position.x == manager.ballx2 || transform.position.z == manager.ballz2) {
 				this.GetComponent<Renderer> ().material = red;
 			} 
 
 
 			//床が抜けるなら青に変更
-			if (transform.position.x == manager.delx && transform.position.z == manager.delz|| transform.position.x == manager.delx2 && transform.position.z == manager.delz2) {
+			if (transform.position.x == manager.delx && transform.position.z == manager.delz
+				|| transform.position.x == manager.delx2 && transform.position.z == manager.delz2) {
 				this.GetComponent<Renderer> ().material = blue;
 			}
 
 
 			//キューブがくるなら黄色に変更
-			if (transform.position.x == manager.cubex && transform.position.z == manager.cubez|| transform.position.x == manager.cubex2 && transform.position.z == manager.cubez2) {
+			if (transform.position.x == manager.cubex && transform.position.z == manager.cubez
+				|| transform.position.x == manager.cubex2 && transform.position.z == manager.cubez2) {
 				this.GetComponent<Renderer> ().material = yellow;
 			}
 
@@ -50,7 +53,8 @@ public class floor : MonoBehaviour {
 		if (time == 0) {
 			this.GetComponent<Renderer> ().material = def;//色をデフォルトに変更
 			//床が抜けるなら座標を移動先に変更
-			if (transform.position.x == manager.delx && transform.position.z == manager.delz || transform.position.x == manager.delx2 && transform.position.z == manager.delz2) {
+			if (transform.position.x == manager.delx && transform.position.z == manager.delz 
+				|| transform.position.x == manager.delx2 && transform.position.z == manager.delz2) {
 				this.transform.position = posy;
 			}
 

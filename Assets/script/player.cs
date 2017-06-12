@@ -38,25 +38,37 @@ public class player : MonoBehaviour {
 
 	//オブジェクトが衝突したとき
 	void OnCollisionEnter(Collision col) {
+		
+		//床に触れた
 		if (col.gameObject.CompareTag ("floor"))
 			floor = true;
 		
+		//ジャンプ力アップアイテムを獲得した
 		if (col.gameObject.CompareTag ("fly"))
 			fly+=0.2f;
 		
+		//移動速度アップアイテムを獲得した
 		if (col.gameObject.CompareTag ("work"))
 			work += 0.005f;
+
+		//障害物にあたったるか下に落ちたらタイトルシーンに移動
+		if ((col.gameObject.CompareTag ("del"))||(col.gameObject.CompareTag ("enemy"))) {
+			Application.LoadLevel ("title");
+
+		}
 			
 	}
 
 	//オブジェクトが離れた時
 	void OnCollisionExit(Collision col) {
+		//床から離れた
 		if (col.gameObject.CompareTag ("floor"))
 			floor = false;
 	}
 
 	//オブジェクトが触れている間
 	void OnCollisionStay(Collision col) {
+		//床に触れている
 		if (col.gameObject.CompareTag ("floor"))
 			floor = true;
 	}

@@ -49,9 +49,8 @@
      <Compile Include="Assets\script\SE.cs" />
      <Compile Include="Assets\script\button.cs" />
      <Compile Include="Assets\script\cube.cs" />
-     <Compile Include="Assets\script\del.cs" />
      <Compile Include="Assets\script\floor.cs" />
-     <Compile Include="Assets\script\gameover.cs" />
+     <Compile Include="Assets\script\item.cs" />
      <Compile Include="Assets\script\manager.cs" />
      <Compile Include="Assets\script\player.cs" />
      <Compile Include="Assets\script\sphere.cs" />

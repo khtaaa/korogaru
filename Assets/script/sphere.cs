@@ -28,12 +28,4 @@ public class sphere : MonoBehaviour {
 			transform.Translate (0f, 0f, speed*hoge);
 		}
 	}
-
-	void OnCollisionEnter(Collision col) {
-		//プレイヤーにあたったらタイトルシーンに移動
-		if (col.gameObject.CompareTag ("Player")) {
-			Application.LoadLevel ("title");
-
-		}
-	}
 }
