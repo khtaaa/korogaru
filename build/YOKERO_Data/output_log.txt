@@ -1,0 +1,47 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 8570 (ID=0x6611)
+    Vendor:   ATI
+    VRAM:     1004 MB
+    Driver:   15.200.1065.0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ゲームプログラム2-3\Documents\GitHub\korogaru\YOKERO_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 3.606158 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 22ac -> priority: 1 
+The referenced script on this Behaviour (Game Object 'Generation') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'player') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.743309 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 485.
+Total: 2.394144 ms (FindLiveObjects: 0.092674 ms CreateObjectMapping: 0.060978 ms MarkObjects: 0.491748 ms  DeleteObjects: 1.747535 ms)
+
