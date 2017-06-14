@@ -5,6 +5,8 @@ using UnityEngine;
 public class manager : MonoBehaviour {
 	public GameObject ball;//ボールオブジェクト
 	public GameObject cube;//キューブオブジェクト
+	public GameObject capsule;//カプセルオブジェクト
+	public GameObject panel;//パネルオブジェクト
 	public GameObject SE;//効果音のオブジェクト
 	public GameObject fly;//ジャンプ力アップのアイテム
 	public GameObject work;//移動速度アップのアイテム
@@ -22,6 +24,14 @@ public class manager : MonoBehaviour {
 	public static int cubez;//キューブAの出現座標ｚ
 	public static int cubex2;//キューブBの出現座標ｘ
 	public static int cubez2;//キューブBの出現座標ｚ
+	public static int capsulex;//カプセルAの出現座標ｘ
+	public static int capsulez;//カプセルAの出現座標ｚ
+	public static int capsulex2;//カプセルBの出現座標ｘ
+	public static int capsulez2;//カプセルBの出現座標ｚ
+	public static int panelx;//パネルAの出現座標ｘ
+	public static int panelz;//パネルAの出現座標z
+	public static int panelx2;//パネルBの出現座標ｘ
+	public static int panelz2;//パネルBの出現座標z
 	public float instx;//最終的なボールの生成座標ｘ
 	public float instz;//最終的なボールの生成座標ｚ
 	public float time;//時間
@@ -43,6 +53,14 @@ public class manager : MonoBehaviour {
 		cubez = 100;
 		cubex2 = 100;
 		cubez2 = 100;
+		capsulex = 100;
+		capsulez = 100;
+		capsulex2 = 100;
+		capsulez2 = 100;
+		panelx = 100;
+		panelz = 100;
+		panelx2 = 100;
+		panelz2 = 100;
 		ok = true;
 	}
 	
@@ -107,6 +125,30 @@ public class manager : MonoBehaviour {
 				cubex2 = (int)Random.Range (-2, 3) * 5;
 				cubez2 = (int)Random.Range (-2, 3) * 5;
 			}
+
+			if (nowwave >= 30) {
+				//カプセルAのｘｚ座標をランダム獲得
+				capsulex = (int)Random.Range (-2, 3) * 5;
+				capsulez = (int)Random.Range (-2, 3) * 5;
+			}
+
+			if (nowwave >= 35) {
+				//カプセルBのｘｚ座標をランダム獲得
+				capsulex2 = (int)Random.Range (-2, 3) * 5;
+				capsulez2 = (int)Random.Range (-2, 3) * 5;
+			}
+
+			if (nowwave >= 40) {
+				//パネルAのｘｚ座標をランダム獲得
+				panelx = (int)Random.Range (-2, 3) * 5;
+				panelz = (int)Random.Range (-2, 3) * 5;
+			}
+
+			if (nowwave >= 45) {
+				//パネルBのｘｚ座標をランダム獲得
+				panelx2 = (int)Random.Range (-2, 3) * 5;
+				panelz2 = (int)Random.Range (-2, 3) * 5;
+			}
 		}
 		if (time == 0) {
 			//ボールAを生成
@@ -128,6 +170,26 @@ public class manager : MonoBehaviour {
 			if (nowwave > 25) {
 				//キューブBを生成
 				Instantiate (cube, new Vector3 (cubex2, 10, cubez2), Quaternion.identity);
+			}
+
+			if (nowwave > 30) {
+				//カプセルAを生成
+				Instantiate (capsule, new Vector3 (capsulex, -5, capsulez), Quaternion.identity);
+			}
+
+			if (nowwave > 35) {
+				//カプセルBを生成
+				Instantiate (capsule, new Vector3 (capsulex2, -5, capsulez2), Quaternion.identity);
+			}
+
+			if (nowwave > 40) {
+				//パネルAを生成
+				Instantiate (panel, new Vector3 (panelx, 10, panelz), Quaternion.identity);
+			}
+
+			if (nowwave > 45) {
+				//パネルAを生成
+				Instantiate (panel, new Vector3 (panelx2, 10, panelz2), Quaternion.identity);
 			}
 		}	
 	}
