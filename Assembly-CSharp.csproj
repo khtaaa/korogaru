@@ -51,10 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Fade_Out.cs" />
      <Compile Include="Assets\script\button.cs" />
      <Compile Include="Assets\script\capsule.cs" />
      <Compile Include="Assets\script\cube.cs" />
+     <Compile Include="Assets\script\Fade_Out.cs" />
      <Compile Include="Assets\script\floor.cs" />
      <Compile Include="Assets\script\item.cs" />
      <Compile Include="Assets\script\manager.cs" />

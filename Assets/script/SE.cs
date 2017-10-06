@@ -8,7 +8,6 @@ public class SE : MonoBehaviour {
 	public AudioClip[] seLists;//効果音リスト
 	AudioSource source;//AudioSource
 
-	// Use this for initialization
 	void Start () {
 		source = GetComponent<AudioSource>();//AudioSource獲得
 
