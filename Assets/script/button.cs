@@ -16,7 +16,8 @@ public class button : MonoBehaviour {
 
 	public void state()
 	{
-		Application.LoadLevel("game");//ゲームシーンに移動
+		Fade_Out.next="game";
+		Fade_Out.fade_ok = true;
 	}
 
 }

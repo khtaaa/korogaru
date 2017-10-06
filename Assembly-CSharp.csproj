@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fade_Out.cs" />
      <Compile Include="Assets\script\button.cs" />
      <Compile Include="Assets\script\capsule.cs" />
      <Compile Include="Assets\script\cube.cs" />
@@ -61,9 +62,9 @@
      <Compile Include="Assets\script\player.cs" />
      <Compile Include="Assets\script\SE.cs" />
      <Compile Include="Assets\script\sphere.cs" />
+     <Compile Include="Assets\script\test.cs" />
      <Compile Include="Assets\script\titletext.cs" />
      <Compile Include="Assets\script\wavetext.cs" />
-     <Compile Include="Assets\test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
